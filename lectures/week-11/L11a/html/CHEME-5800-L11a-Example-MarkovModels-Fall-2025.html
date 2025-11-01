@@ -7517,7 +7517,7 @@ ___</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="n">include</span><span class="p">(</span><span class="n">joinpath</span><span class="p">(</span><span class="nd">@__DIR__</span><span class="p">,</span><span class="w"> </span><span class="s">"Include.jl"</span><span class="p">));</span><span class="w"> </span><span class="c"># include the Include.jl file</span>
@@ -7559,7 +7559,7 @@ ___</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="k">function</span><span class="w"> </span><span class="n">iterate</span><span class="p">(</span><span class="n">P</span><span class="o">::</span><span class="kt">Array</span><span class="p">{</span><span class="kt">Float64</span><span class="p">,</span><span class="mi">2</span><span class="p">};</span><span class="w"> </span>
@@ -7613,11 +7613,11 @@ ___</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [101]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="n">number_of_hidden_states</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span><span class="w"> </span><span class="c"># how many states do we have?</span>
-<span class="n">number_of_simulation_steps</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">10000</span><span class="p">;</span><span class="w"> </span><span class="c"># number of simulation steps</span>
+<span class="n">number_of_simulation_steps</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">20000</span><span class="p">;</span><span class="w"> </span><span class="c"># number of simulation steps</span>
 <span class="n">number_of_samples</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">10000</span><span class="p">;</span><span class="w"> </span><span class="c"># number of samples</span>
 </pre></div>
 </div>
@@ -7666,7 +7666,7 @@ ___</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [105]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="n">P</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span>
@@ -7695,7 +7695,7 @@ ___</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [107]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="n">rank</span><span class="p">(</span><span class="n">P</span><span class="p">)</span>
@@ -7708,9 +7708,9 @@ ___</p>
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[107]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>3</pre>
 </div>
 </div>
@@ -7736,7 +7736,7 @@ ___</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [109]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="k">for</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">∈</span><span class="w"> </span><span class="mi">1</span><span class="o">:</span><span class="n">number_of_hidden_states</span>
@@ -7774,11 +7774,12 @@ $$
 $$
 where $\pi_{sj}\geq{0},\forall{s}\in\mathcal{S}$. The state of the Markov chain at time step $n$, denoted by $\mathbf{\pi}_{n}$, is given by:
 where $\pi_{sj}\geq{0}, \forall{s}\in\mathcal{S}$. The state of the Markov chain at time step $n$, denoted by $\mathbf{\pi}_{n}$, is given by:
+$$
 \begin{equation*}
 \mathbf{\pi}_{n} = \mathbf{\pi}_{0}\cdot\left(\mathbf{P}\right)^n
 \end{equation*}
 $$
-where $\mathbf{\pi}_{n}$ is the state vector at time step $n$ and $\left(\mathbf{P}\right)^n$ is the transition matrix raised to the $n$-th power. Finally, a unique stationary distribution $\bar{\pi}$ exists, where $\mathbf{P}^{k}$ converges to a __rank-one__ matrix in which each row is the stationary distribution $\pi$:
+where $\mathbf{\pi}_{n}$ is the state vector at time step $n$ and $\left(\mathbf{P}\right)^{n}$ is the transition matrix raised to the $n$-th power. Finally, a unique stationary distribution $\bar{\pi}$ exists, where $\mathbf{P}^{k}$ converges to a rank-one matrix in which each row is the stationary distribution $\pi$:
 $$
 \begin{equation*}
 \lim_{k\rightarrow\infty} \mathbf{P}^{k} = \mathbf{1}^{\top}\otimes\pi
@@ -7828,10 +7829,10 @@ where $\mathbf{1}$ is a column vector of all ones and the operator $\otimes$ den
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [114]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-julia"><pre><span></span><span class="nb">π</span><span class="n">̄</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">iterate</span><span class="p">(</span><span class="n">P</span><span class="p">,</span><span class="w"> </span><span class="n">ϵ</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0000001</span><span class="p">)</span>
+<div class="highlight hl-julia"><pre><span></span><span class="nb">π</span><span class="n">̄</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">iterate</span><span class="p">(</span><span class="n">P</span><span class="p">,</span><span class="w"> </span><span class="n">ϵ</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.00000000001</span><span class="p">,</span><span class="w"> </span><span class="n">maxcount</span><span class="o">=</span><span class="mi">10000</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7841,9 +7842,9 @@ where $\mathbf{1}$ is a column vector of all ones and the operator $\otimes$ den
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[114]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>1×3 Matrix{Float64}:
  0.274809  0.435115  0.290076</pre>
 </div>
@@ -7870,19 +7871,19 @@ As $n\rightarrow\infty$ (i.e., as we perform more iterations), the difference be
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [116]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="k">let</span>
 
-<span class="w">    </span><span class="n">π₁</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="mf">0.0</span><span class="p">,</span><span class="mf">1.0</span><span class="p">,</span><span class="mf">0.0</span><span class="p">];</span><span class="w"> </span><span class="c"># initial state = state 2</span>
+<span class="w">    </span><span class="n">π₁</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="mf">0.0</span><span class="p">,</span><span class="mf">0.0</span><span class="p">,</span><span class="mf">1.0</span><span class="p">];</span><span class="w"> </span><span class="c"># initial state = state 2</span>
 <span class="w">    </span><span class="n">direct_state_distribution</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kt">Dict</span><span class="p">{</span><span class="kt">Int</span><span class="p">,</span><span class="kt">Array</span><span class="p">{</span><span class="kt">Float64</span><span class="p">,</span><span class="mi">1</span><span class="p">}}();</span>
 <span class="w">    </span><span class="n">direct_state_distribution</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">π₁</span><span class="p">;</span>
 <span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">2</span><span class="o">:</span><span class="n">number_of_simulation_steps</span>
 <span class="w">        </span><span class="n">πᵢ</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">transpose</span><span class="p">(</span><span class="n">π₁</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">P</span><span class="p">)</span><span class="o">^</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
 <span class="w">        </span><span class="n">direct_state_distribution</span><span class="p">[</span><span class="n">n</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w">  </span><span class="n">transpose</span><span class="p">(</span><span class="n">πᵢ</span><span class="p">)</span>
 <span class="w">    </span><span class="k">end</span>
-<span class="w">    </span><span class="n">foreach</span><span class="p">(</span><span class="n">i</span><span class="o">-&gt;</span><span class="w"> </span><span class="n">println</span><span class="p">(</span><span class="n">direct_state_distribution</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="w"> </span><span class="mi">1</span><span class="o">:</span><span class="mi">20</span><span class="p">);</span>
+<span class="w">    </span><span class="n">foreach</span><span class="p">(</span><span class="n">i</span><span class="o">-&gt;</span><span class="w"> </span><span class="n">println</span><span class="p">(</span><span class="n">direct_state_distribution</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="w"> </span><span class="mi">1</span><span class="o">:</span><span class="mi">4</span><span class="o">:</span><span class="mi">100</span><span class="p">);</span>
 <span class="k">end</span>
 </pre></div>
 </div>
@@ -7896,26 +7897,31 @@ As $n\rightarrow\infty$ (i.e., as we perform more iterations), the difference be
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>[0.0, 1.0, 0.0]
-[0.6, 0.2, 0.2]
-[0.15, 0.6699999999999999, 0.18]
-[0.4094999999999999, 0.33049999999999996, 0.26]
-[0.21877499999999994, 0.533125, 0.2481]
-[0.3308137499999999, 0.38889124999999997, 0.28029499999999996]
-[0.2498754374999999, 0.4761398124999999, 0.27398475]
-[0.2981776593749999, 0.4148050531249999, 0.28701728749999994]
-[0.26379191484374986, 0.45233497328124994, 0.283873111875]
-[0.2845905797109374, 0.4262312473203125, 0.2891781729687499]
-[0.2699682773777342, 0.442360752080078, 0.28767097054218743]
-[0.2789148651169334, 0.4312433050875194, 0.2898418297955468]
-[0.27269172630835825, 0.43817033181725473, 0.2891379418743867]
-[0.2765367854057707, 0.4334325889187073, 0.29003062567552157]
-[0.2738863926215128, 0.43640565162188016, 0.28970795575660657]
-[0.2755377106042036, 0.4343855900417952, 0.2900766993540006]
-[0.27440823955528726, 0.4356609528885528, 0.2899308075561595]
-[0.275116983710896, 0.43479926042208134, 0.2900837558670222]
-[0.2746354054387935, 0.43534611336987405, 0.2900184811913318]
-[0.2749394382938641, 0.43497840219822825, 0.29008215950790706]
+<pre>[0.0, 0.0, 1.0]
+[0.24255, 0.37215, 0.3853]
+[0.27130496343749994, 0.4258096678124999, 0.30288536874999994]
+[0.2744871227606776, 0.43370691281157997, 0.2918059644277421]
+[0.27479269989839583, 0.43489621133423917, 0.29031108876736444]
+[0.2748117983316515, 0.43507978814277093, 0.2901084135255771]
+[0.27481039464700924, 0.4351088475155027, 0.2900807578374874]
+[0.2748094861454378, 0.43511356150168073, 0.2900769523528806]
+[0.2748092332242822, 0.4351143437351992, 0.29007642304051756]
+[0.27480917541599736, 0.43511447616954035, 0.29007634841446117]
+[0.2748091633052802, 0.43511449897708304, 0.2900763377176356]
+[0.2748091608854912, 0.43511450296045384, 0.2900763361540536]
+[0.27480916041564357, 0.43511450366400156, 0.2900763359203533]
+[0.2748091603260757, 0.4351145037893567, 0.2900763358845661]
+[0.27480916030920954, 0.4351145038118426, 0.2900763358789462]
+[0.27480916030606006, 0.4351145038158966, 0.29007633587804144]
+[0.2748091603054754, 0.4351145038166302, 0.29007633587789233]
+[0.2748091603053673, 0.4351145038167634, 0.2900763358778672]
+[0.2748091603053473, 0.4351145038167875, 0.29007633587786286]
+[0.27480916030534364, 0.43511450381679184, 0.2900763358778621]
+[0.2748091603053429, 0.43511450381679256, 0.2900763358778619]
+[0.2748091603053428, 0.43511450381679273, 0.2900763358778619]
+[0.27480916030534275, 0.4351145038167927, 0.29007633587786186]
+[0.2748091603053427, 0.4351145038167926, 0.29007633587786175]
+[0.27480916030534264, 0.4351145038167925, 0.29007633587786175]
 </pre>
 </div>
 </div>
@@ -7932,16 +7938,57 @@ As $n\rightarrow\infty$ (i.e., as we perform more iterations), the difference be
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=621800d2">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=621800d2">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [118]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-julia"><pre><span></span><span class="n">test</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">P</span><span class="o">^</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span><span class="w"> </span><span class="c"># raise P to a large power</span>
+<div class="highlight hl-julia"><pre><span></span><span class="n">test</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">P</span><span class="o">^</span><span class="p">(</span><span class="mi">2000</span><span class="p">)</span><span class="w"> </span><span class="c"># raise P to a large power</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[118]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>3×3 Matrix{Float64}:
+ 0.274809  0.435115  0.290076
+ 0.274809  0.435115  0.290076
+ 0.274809  0.435115  0.290076</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d61c6fdb-f6f1-4106-b76a-167330d3f6f5">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [119]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-julia"><pre><span></span><span class="n">rank</span><span class="p">(</span><span class="n">test</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[119]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>1</pre>
 </div>
 </div>
 </div>
@@ -7966,7 +8013,7 @@ As $n\rightarrow\infty$ (i.e., as we perform more iterations), the difference be
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [121]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="nd">@assert</span><span class="w"> </span><span class="n">rank</span><span class="p">(</span><span class="n">test</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">1</span>
@@ -8003,7 +8050,7 @@ As $n\rightarrow\infty$ (i.e., as we perform more iterations), the difference be
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [124]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="n">hidden_state_probability_dictionary</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kt">Dict</span><span class="p">{</span><span class="kt">Int</span><span class="p">,</span><span class="kt">Categorical</span><span class="p">}();</span>
@@ -8020,9 +8067,9 @@ As $n\rightarrow\infty$ (i.e., as we perform more iterations), the difference be
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[124]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>Dict{Int64, Categorical{P} where P&lt;:Real} with 3 entries:
   2 =&gt; Categorical{Float64, Vector{Float64}}(support=Base.OneTo(3), p=[0.6, 0.2…
   3 =&gt; Categorical{Float64, Vector{Float64}}(support=Base.OneTo(3), p=[0.0, 0.3…
@@ -8048,7 +8095,7 @@ As $n\rightarrow\infty$ (i.e., as we perform more iterations), the difference be
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [126]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="n">hidden_simulation_dict</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">let</span>
@@ -8066,7 +8113,7 @@ As $n\rightarrow\infty$ (i.e., as we perform more iterations), the difference be
 <span class="w">        </span><span class="c"># capture -</span>
 <span class="w">        </span><span class="n">hidden_simulation_dict</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sᵢ</span>
 <span class="w">    </span><span class="k">end</span>
-<span class="w">    </span><span class="n">foreach</span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">println</span><span class="p">(</span><span class="s">"Soln: (t=</span><span class="si">$</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="s">,s=</span><span class="si">$</span><span class="p">(</span><span class="n">hidden_simulation_dict</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="s">)"</span><span class="p">),</span><span class="w"> </span><span class="mi">1</span><span class="o">:</span><span class="mi">10</span><span class="p">)</span><span class="w"> </span><span class="c"># print first few steps</span>
+<span class="w">    </span><span class="n">foreach</span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">println</span><span class="p">(</span><span class="s">"Soln: (t=</span><span class="si">$</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="s">,s=</span><span class="si">$</span><span class="p">(</span><span class="n">hidden_simulation_dict</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="s">)"</span><span class="p">),</span><span class="w"> </span><span class="mi">1</span><span class="o">:</span><span class="mi">1</span><span class="o">:</span><span class="mi">100</span><span class="p">)</span><span class="w"> </span><span class="c"># print first few steps</span>
 
 <span class="w">    </span><span class="n">hidden_simulation_dict</span><span class="p">;</span><span class="w"> </span><span class="c"># return</span>
 <span class="k">end</span><span class="p">;</span>
@@ -8090,8 +8137,98 @@ Soln: (t=5,s=1)
 Soln: (t=6,s=2)
 Soln: (t=7,s=3)
 Soln: (t=8,s=3)
-Soln: (t=9,s=3)
-Soln: (t=10,s=3)
+Soln: (t=9,s=2)
+Soln: (t=10,s=1)
+Soln: (t=11,s=2)
+Soln: (t=12,s=1)
+Soln: (t=13,s=2)
+Soln: (t=14,s=1)
+Soln: (t=15,s=2)
+Soln: (t=16,s=1)
+Soln: (t=17,s=2)
+Soln: (t=18,s=1)
+Soln: (t=19,s=2)
+Soln: (t=20,s=2)
+Soln: (t=21,s=1)
+Soln: (t=22,s=2)
+Soln: (t=23,s=3)
+Soln: (t=24,s=3)
+Soln: (t=25,s=3)
+Soln: (t=26,s=2)
+Soln: (t=27,s=1)
+Soln: (t=28,s=2)
+Soln: (t=29,s=1)
+Soln: (t=30,s=1)
+Soln: (t=31,s=2)
+Soln: (t=32,s=1)
+Soln: (t=33,s=2)
+Soln: (t=34,s=1)
+Soln: (t=35,s=2)
+Soln: (t=36,s=1)
+Soln: (t=37,s=2)
+Soln: (t=38,s=1)
+Soln: (t=39,s=2)
+Soln: (t=40,s=1)
+Soln: (t=41,s=2)
+Soln: (t=42,s=2)
+Soln: (t=43,s=3)
+Soln: (t=44,s=2)
+Soln: (t=45,s=1)
+Soln: (t=46,s=2)
+Soln: (t=47,s=1)
+Soln: (t=48,s=1)
+Soln: (t=49,s=2)
+Soln: (t=50,s=1)
+Soln: (t=51,s=2)
+Soln: (t=52,s=1)
+Soln: (t=53,s=2)
+Soln: (t=54,s=2)
+Soln: (t=55,s=2)
+Soln: (t=56,s=1)
+Soln: (t=57,s=2)
+Soln: (t=58,s=3)
+Soln: (t=59,s=3)
+Soln: (t=60,s=3)
+Soln: (t=61,s=3)
+Soln: (t=62,s=3)
+Soln: (t=63,s=2)
+Soln: (t=64,s=1)
+Soln: (t=65,s=2)
+Soln: (t=66,s=1)
+Soln: (t=67,s=2)
+Soln: (t=68,s=1)
+Soln: (t=69,s=2)
+Soln: (t=70,s=2)
+Soln: (t=71,s=3)
+Soln: (t=72,s=3)
+Soln: (t=73,s=3)
+Soln: (t=74,s=2)
+Soln: (t=75,s=1)
+Soln: (t=76,s=2)
+Soln: (t=77,s=2)
+Soln: (t=78,s=3)
+Soln: (t=79,s=2)
+Soln: (t=80,s=1)
+Soln: (t=81,s=2)
+Soln: (t=82,s=3)
+Soln: (t=83,s=3)
+Soln: (t=84,s=3)
+Soln: (t=85,s=3)
+Soln: (t=86,s=3)
+Soln: (t=87,s=3)
+Soln: (t=88,s=3)
+Soln: (t=89,s=3)
+Soln: (t=90,s=2)
+Soln: (t=91,s=1)
+Soln: (t=92,s=2)
+Soln: (t=93,s=1)
+Soln: (t=94,s=2)
+Soln: (t=95,s=2)
+Soln: (t=96,s=3)
+Soln: (t=97,s=2)
+Soln: (t=98,s=1)
+Soln: (t=99,s=2)
+Soln: (t=100,s=1)
 </pre>
 </div>
 </div>
@@ -8118,7 +8255,7 @@ Soln: (t=10,s=3)
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [128]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="k">let</span>
@@ -8192,9 +8329,9 @@ Soln: (t=10,s=3)
  <span class="ansi-bold"> state </span> <span class="ansi-bold"> count </span> <span class="ansi-bold"> total </span> <span class="ansi-bold"> frequency </span> <span class="ansi-bold"> probability </span>
  <span class="ansi-black-intense-fg"> Int64 </span> <span class="ansi-black-intense-fg"> Int64 </span> <span class="ansi-black-intense-fg"> Int64 </span> <span class="ansi-black-intense-fg">   Float64 </span> <span class="ansi-black-intense-fg">     Float64 </span>
  ------- ------- ------- ----------- -------------
-      1    2744   10000      0.2744      0.274809
-      2    4306   10000      0.4306      0.435115
-      3    2950   10000       0.295      0.290076
+      1    5600   20000        0.28      0.274809
+      2    8783   20000     0.43915      0.435115
+      3    5617   20000     0.28085      0.290076
  ------- ------- ------- ----------- -------------
 </pre>
 </div>
@@ -8218,11 +8355,40 @@ Soln: (t=10,s=3)
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [152]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="n">d</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Categorical</span><span class="p">(</span><span class="nb">π</span><span class="n">̄</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="o">:</span><span class="p">]);</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=231cdedd-2abe-433e-adef-67dfc8e28636">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [154]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-julia"><pre><span></span><span class="nb">π</span><span class="n">̄</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="o">:</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[154]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>3-element Vector{Float64}:
+ 0.27480916030683294
+ 0.4351145038150381
+ 0.2900763358781268</pre>
 </div>
 </div>
 </div>
@@ -8244,7 +8410,7 @@ Soln: (t=10,s=3)
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [156]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="n">rand</span><span class="p">(</span><span class="n">d</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span><span class="w"> </span><span class="c"># generate 100 samples from the stationary distribution</span>
@@ -8257,29 +8423,35 @@ Soln: (t=10,s=3)
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[156]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>100-element Vector{Int64}:
+ 3
+ 3
  2
  3
  2
- 2
- 2
- 2
+ 3
+ 3
  1
- 1
- 1
+ 3
+ 3
  2
+ 2
+ 3
  ⋮
- 3
+ 1
+ 2
+ 2
+ 1
+ 1
  3
  2
  1
  3
- 2
+ 1
  3
- 2
  3</pre>
 </div>
 </div>
@@ -8302,7 +8474,7 @@ Soln: (t=10,s=3)
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [158]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="k">let</span>
@@ -8375,9 +8547,9 @@ Soln: (t=10,s=3)
  <span class="ansi-bold"> state </span> <span class="ansi-bold"> count </span> <span class="ansi-bold"> total </span> <span class="ansi-bold"> frequency </span> <span class="ansi-bold"> probability </span>
  <span class="ansi-black-intense-fg"> Int64 </span> <span class="ansi-black-intense-fg"> Int64 </span> <span class="ansi-black-intense-fg"> Int64 </span> <span class="ansi-black-intense-fg">   Float64 </span> <span class="ansi-black-intense-fg">     Float64 </span>
  ------- ------- ------- ----------- -------------
-      1    2799   10000      0.2799      0.274809
-      2    4253   10000      0.4253      0.435115
-      3    2948   10000      0.2948      0.290076
+      1    2728   20000      0.2728      0.274809
+      2    4417   20000      0.4417      0.435115
+      3    2855   20000      0.2855      0.290076
  ------- ------- ------- ----------- -------------
 </pre>
 </div>
